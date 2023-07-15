@@ -28,3 +28,78 @@ line-height: 150%;
 .nav-link.active {
 font-weight: 700;
 }
+
+.container {
+  max-width: 870px;
+  width: 100%;
+  margin: auto;
+}
+img {
+max-width: 200px;
+max-height: 200px;
+
+}
+
+.header {
+padding: 70px 0;
+display: flex;
+align-items: center;
+}
+
+.header-text {
+margin-left: 27px;
+}
+
+.header-strong {
+font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  /* 60px */
+  letter-spacing: -1.44px;
+}
+
+.header-heading {
+font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+  /* 32.4px */
+  letter-spacing: -0.02em;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.header-primary {
+color: #BF7506;
+}
+.social-list {
+list-style-type: none;
+padding: 0;
+display: flex;
+align-items: center;
+}
+.social-link {
+  display: inline-block;
+  padding: 8px;
+}
+.header-links  {
+display: flex;
+align-items: center;
+}
+.cv-download {
+  padding: 7px 8px;
+  margin-left: 55px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  color: #211B12;
+  border-bottom: 2px solid #BF7506;
+}
+.cv-icon {
+margin-right: 4px;
+}

@@ -37,7 +37,7 @@ body {
   width: 100%;
   margin: auto;
 }
-img {
+.header-photo {
   max-width: 200px;
   max-height: 200px;
 }
@@ -180,13 +180,14 @@ img {
 }
 .developer {
   padding: 80px 0 20px;
-
   display: flex;
   align-items: center;
 }
 .developer-photo {
+  display: flex;
+  align-items: center;
   width: 360px;
-  height: 840px;
+  height: 440px;
   flex-shrink: 0;
   object-fit: cover;
   border-radius: 20px;
@@ -224,6 +225,7 @@ img {
   margin: 16px 0;
 }
 .developer-sign {
+  width: 200px;
   min-width: 200px;
 }
 .skils {
